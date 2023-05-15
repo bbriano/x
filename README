@@ -1,0 +1,10 @@
+X execute commands line by line
+
+It's pretty much
+	$ xargs -L 1
+
+But without the annoying
+	xargs: unterminated quote
+
+How to install?
+	$ go install github.com/bbriano/x@latest
